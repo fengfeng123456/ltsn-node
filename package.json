@@ -7,7 +7,10 @@
     "ltsn": "bin/ltsn"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ltsn 8",
+    "version": "ltsn -v",
+    "help": "ltsn -h",
+    "unlink": "npm unlink ltsn"
   },
   "repository": {
     "type": "git",

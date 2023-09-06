@@ -18,6 +18,6 @@ module.exports = async (v) => {
     // 踢出去 file 这个字段，其他的全部返回
     const { files, ...rest } = it
     const doc = color.yellow(terminalLink('API', `https://nodejs.org/dist/${it.version}/docs/api/documentation.html`))
-    return { ...rest, doc }
+    return { ...rest, doc, c:2 }
   })
 }
