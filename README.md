@@ -5,7 +5,7 @@
 ## 安装
 
 ```sh
-npm install ltsn-node -g
+npm install ltsn-node-ff -g
 ```
 
 ## 启动项目
