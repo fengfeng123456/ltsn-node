@@ -8,6 +8,12 @@
 npm install ltsn-node-ff -g
 ```
 
+## 卸载
+
+```sh
+npm uninstall ltsn-node-ff -g
+```
+
 ## 启动项目
 
 ```sh
